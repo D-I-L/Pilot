@@ -30,8 +30,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-#    'django.contrib.admin',
-#    'django.contrib.auth',
+#    'django.contrib.admin', @IgnorePep8
+#    'django.contrib.auth', @IgnorePep8
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -86,4 +86,3 @@ STATIC_URL = '/static/'
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, '../../'),
 )
-
