@@ -1,0 +1,10 @@
+{% extends "HelloWorld/base.html" %}
+
+{% block title %}{{ TITLE }}{% endblock %}
+
+{% block content %}
+      <div class="starter-template">
+        <h1>{{ msg }}</h1>
+        <p class="lead">{% include "pilot" %}</p>
+      </div>
+{% endblock %}
